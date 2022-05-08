@@ -1,3 +1,11 @@
 In Tomography.ipynb jupiter notebook there are the tomography tests executed. Basically, there are three functions to call for each one of the experiment that are implemented in the script TomographyUnitTest.py.
 
-* A
+Here the three functions:
+
+* decrease_error_plot(vector, delta, norm='L2'): it requires a vector (or a list of vectors), the approximation error and the norm (L2 is the default one, otherwise specify 'inf'). It returns a plot that shows the decreases of the tomography error at the increase of the number of measurements.
+
+* make_real_predicted_comparison(vector, delta, norm='L2'): it requires a vector (or list of vectors), the approximation error and the norm. It returns a plot that shows the comparison between the curve representing the theoretical measurements bound N=36d\log(d)/\delta^2 and the curve representing the tomography actually performed on the input vector.
+
+* found_distribution(vector, n_measurements, delta, distribution_fitter=False, norm='L2',
+                       incremental_measure=False, N=None): it requires an input vector, the number of measurements that corresponds to the number of times that you want
+                       to repeat tomography (i.e., 1000 times), the error delta, ditribution_fitter that if set to True makes the function to return the most similar                            distributions, and the norm. It returns the distribution of the tomography error.
