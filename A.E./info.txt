@@ -1,1 +1,1 @@
-
+In A.E test script, we execute amplitude estimation to estimate 0 and 1. We show that we estimate a=0 and a=1 with certainty (a=1 only if the number of iterations is even).
