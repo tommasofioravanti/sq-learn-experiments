@@ -1,3 +1,3 @@
 # Sqlearn-experiments
 
-![Alt text](/Image/Sklearn1.png?raw=true "Optional Title")
+![Alt text](/Images/Sklearn1.png?raw=true "Optional Title")
