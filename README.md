@@ -14,4 +14,4 @@ Up to now in this framework only PCA and K-means algorithm can be simulated in t
 
 In this repository, you can find the experiments and numerical simulations done for quantum pure state tomography, phase estimation, consistent phase estimation, and amplitude estimation.
 
-Furthermore, we also include our experiments for what concerns the application of our sq-learn framework to cybersecurity problems.
+Furthermore, we also include experiments related to the application of our sq-learn framework to cybersecurity problems.
