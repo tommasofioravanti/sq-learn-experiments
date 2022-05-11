@@ -1,1 +1,2 @@
 
+These scripts are used for the Principal components classifer and ensemble experiments. In this way, as you can see in the corresponding Jupiter notebook, the process of fitting and classify is more simple.
